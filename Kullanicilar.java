@@ -51,4 +51,9 @@ public class Kullanicilar
     public void setTelefon(String telefon) {
         this.telefon = telefon;
     }
+
+    public String toString(){
+        return adi+soyadi+mail+telefon;
+
+    }
 }
